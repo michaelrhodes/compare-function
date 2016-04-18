@@ -1,0 +1,28 @@
+{
+  "name": "compare-function",
+  "version": "0.0.0",
+  "description": "Effortlessly compose compare functions for Array.prototype.sort",
+  "main": "index.js",
+  "devDependencies": {
+    "tape": "~4.5.1"
+  },
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:michaelrhodes/compare-function"
+  },
+  "keywords": [
+    "array",
+    "sort",
+    "compare",
+    "compose"
+  ],
+  "author": "Michael Rhodes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michaelrhodes/compare-function/issues"
+  },
+  "homepage": "https://github.com/michaelrhodes/compare-function"
+}
