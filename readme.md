@@ -35,5 +35,8 @@ songs.sort(compare(artist, -1)).map(artist)
 > ['New Order', 'Joy Division', 'Freebass']
 ```
 
+### See also
+- [multi-compare](https://github.com/parshap/js-multi-compare)
+
 ### License
 [MIT](http://opensource.org/licenses/MIT)
