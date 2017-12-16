@@ -31,7 +31,7 @@ function artist (song) {
 songs.sort(compare(artist)).map(artist)
 > ['Freebass', 'Joy Division', 'New Order']
 
-songs.sort(compare(artist, -1)).map(artist)
+songs.sort(compare(-1, artist)).map(artist)
 > ['New Order', 'Joy Division', 'Freebass']
 ```
 

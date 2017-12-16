@@ -15,7 +15,7 @@ test('it works with primitive values', function (assert) {
   )
 
   assert.deepEqual(
-    numbers.sort(compare(value, -1)),
+    numbers.sort(compare(-1, value)),
     [5, 5, 3, 2, 1, 0],
     'can be made descending'
   )
@@ -46,7 +46,7 @@ test('it works with objects', function (assert) {
   )
 
   assert.deepEqual(
-    songs.sort(compare(artist, -1)).map(artist),
+    songs.sort(compare(-1, artist)).map(artist),
     ['New Order', 'Joy Division', 'Freebass'],
     'can be made descending'
   )

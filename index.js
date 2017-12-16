@@ -1,4 +1,5 @@
-module.exports = function (fn, sign) {
+module.exports = function (sign, fn) {
+  if (typeof sign == 'function') fn = sign, sign = 1
   sign = isNaN(sign) || sign >= 0 ? 1 : -1
   return function (a, b) {
     var ra = fn(a)
