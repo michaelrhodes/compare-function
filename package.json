@@ -3,6 +3,7 @@
   "version": "2.0.0",
   "description": "Effortlessly compose compare functions for Array.prototype.sort",
   "main": "index.js",
+  "types": "index.d.ts",
   "devDependencies": {
     "tape": "~4.5.1"
   },
